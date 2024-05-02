@@ -36,7 +36,7 @@ Após baixar o arquivo Web Drive do Edge, descompactue a pasta e coloque todo o 
 No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conforme imagem:
 
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img1.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img1.png" alt="diretório criado">
 
 
 No Eclipse crie um projeto Java, depois um pacote com o nome de sua preferência e adicione uma classe com o método main.
@@ -45,7 +45,7 @@ No Eclipse crie um projeto Java, depois um pacote com o nome de sua preferência
 
 Com botão direito e o cursor em cima do projeto criado, vá para Build Path --> Configure Build Path e dentro do ClassPath adicione os aquivos JARs externo que vieram no arquivo Web Drive do Edge que você baixou:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img2.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img2.png" alt="diretório criado">
 
 
 
@@ -138,7 +138,7 @@ Em Export destination indique o caminho ue você quer salvar o arquivo + nome_do
 
 Configure conforme imagem abaixo:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img3.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img3.png" alt="diretório criado">
 
 Depois de finish o arquivo jar estará na pasta.
  
@@ -150,13 +150,13 @@ No agendador de tarefas vá em Ação -> Criar Tarefa
 
 Configure conforme imagens:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img4.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img4.png" alt="diretório criado">
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img5.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img5.png" alt="diretório criado">
 
 Em ações clique em Novo:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img6.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img6.png" alt="diretório criado">
 
 Em Programa/script você deverá buscar o arquivo **java.exe** dentro da pasta da **JRE** ou da **JDK**.
 
@@ -171,7 +171,7 @@ Clique em OK e pronto sua tarefa estará criada e seu código rodará todos os d
 
 Como ficou a pasta após dois dias de uso:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img7.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img1.png" alt="diretório criado">
 
 Lembrando que ele foi executado quando a máquina estava ligada. 
 
