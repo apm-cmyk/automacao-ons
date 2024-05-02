@@ -171,7 +171,7 @@ Clique em OK e pronto sua tarefa estará criada e seu código rodará todos os d
 
 Como ficou a pasta após dois dias de uso:
 
-<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img1.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img7.png" alt="diretório criado">
 
 Lembrando que ele foi executado quando a máquina estava ligada. 
 
