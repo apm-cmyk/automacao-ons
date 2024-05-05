@@ -13,11 +13,11 @@ Nosso estudo de caso será 1 (um) acesso diário a página do ONS (Operador Naci
 Em seguida criaremos um dashboard bem básico no Power BI, também automatizado, com esses dados do ONS. E por fim faremos uma validação do processo registrando o histórico através de uma variável temporal criada no próprio Power BI.
 
  
-Para proceguir você dverá conhecer o básico do básico de Java e ter instalado a IDE Eclipse no seu computador com o JDK funcionando.
+Para prosseguir você dverá conhecer o básico do básico de Java e ter instalado a IDE Eclipse no seu computador com o JDK funcionando.
 
-Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDEs desde que use os frameworks apropriados para a linguagem desejada.
+Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDE desde que use os frameworks apropriados para a linguagem desejada.
 
-## Passo 1 - Baixe Os arquivos Web Drive
+## Passo 1 - Baixe Os arquivos Web Drive e Selenium
 
 Você deverá baixar o arquvido Web Driver do navegador de sua preferência.
 Abaixo estão disponíveis os links para baixar de alguns navegadores:
