@@ -2,6 +2,10 @@
 
 <p>Caro trabalhador deste país, você como eu sabe que a maioria das atividades executadas na labuta são tarefas monótonas, repetitivas e que carecem da necessidade de inteligência humana.</p>
 
+<p align ="center">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/Charlie_Chaplin_Tempos_Modernos_1936.gif"
+</p>
+
 Sendo assim uma forma de se livrar dessas tarefas para poder concentrar o seu tempo e esforços em atividades que realmente precisam de você, é automatizando esses processos. Automatizar nesse contexto significa ter um software programado para executar uma ou mais tarefas (abrir, baixar e fechar aquivos, pequisar na internet, acessar sites, tomar decições apartir de um critério e etc), com uma frequência de tempo e sem precisar de você.
 
 Além de automatizar tarefas em aplicativos disponíveis em seu computador, você também pode automatizar o acesso ao seu navegador. Como exemplo, em tarefas em que é necessário buscar um dado disponível na Internet.
