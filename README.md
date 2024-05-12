@@ -34,11 +34,12 @@ Abaixo estão disponíveis os links para baixar de alguns navegadores:
 |Chrome|[baixar](https://chromedriver.chromium.org/downloads)|
 |Mozila|[baixar](https://github.com/mozilla/geckodriver/releases)|
 
-Nesse tutorial conforme titulo vamos utilizar o navegador Edge.
+Nesse tutorial conforme titulo vamos utilizar o navegador Edge. 
+Você também deverá baixar o Selenium disponível em: [Selenium](https://www.selenium.dev/downloads/)
 
 ## Passo 2 - Crie Um Projeto Java No Eclipse e Prepare O Ambiente
 
-Após baixar o arquivo WebDriver do Edge, descompacte a pasta e coloque todo o conteúdo em uma diretório.
+Após baixar o arquivo WebDriver do Edge, descompacte a pasta e coloque todo o conteúdo em uma diretório. Faça o mesmo com o arquivo baixado do Selenium.
 No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conforme imagem:
 
 
