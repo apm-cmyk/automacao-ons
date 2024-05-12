@@ -2,6 +2,10 @@
 
 <p>Caro trabalhador deste país, você como eu sabe que a maioria das atividades executadas na labuta são tarefas monótonas, repetitivas e que carecem da necessidade de inteligência humana.</p>
 
+<p align ="center">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/Charlie_Chaplin_Tempos_Modernos_1936.gif"
+</p>
+
 Sendo assim uma forma de se livrar dessas tarefas para poder concentrar o seu tempo e esforços em atividades que realmente precisam de você, é automatizando esses processos. Automatizar nesse contexto significa ter um software programado para executar uma ou mais tarefas (abrir, baixar e fechar aquivos, pequisar na internet, acessar sites, tomar decições apartir de um critério e etc), com uma frequência de tempo e sem precisar de você.
 
 Além de automatizar tarefas em aplicativos disponíveis em seu computador, você também pode automatizar o acesso ao seu navegador. Como exemplo, em tarefas em que é necessário buscar um dado disponível na Internet.
@@ -13,11 +17,13 @@ Nosso estudo de caso será 1 (um) acesso diário a página do ONS (Operador Naci
 Em seguida criaremos um dashboard bem básico no Power BI, também automatizado, com esses dados do ONS. E por fim faremos uma validação do processo registrando o histórico através de uma variável temporal criada no próprio Power BI.
 
  
-Para proceguir você dverá conhecer o básico do básico de Java e ter instalado a IDE Eclipse no seu computador com o JDK funcionando.
+Para prosseguir você dverá conhecer o básico do básico de Java e ter instalado a IDE Eclipse no seu computador com o JDK funcionando.
 
-Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDEs desde que use os frameworks apropriados para a linguagem desejada.
+Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDE desde que use os frameworks apropriados para a linguagem desejada.
 
-## Passo 1 - Baixe Os arquivos Web Driver
+
+## Passo 1 - Baixe Os arquivos Web Driver e Selenium
+
 
 Você deverá baixar o arquvido Web Driver do navegador de sua preferência.
 Abaixo estão disponíveis os links para baixar de alguns navegadores:
@@ -37,7 +43,8 @@ No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conform
 
 
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img1.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img1.png" alt="diretório criado">
+
 
 
 No Eclipse crie um projeto Java, depois um pacote com o nome de sua preferência e adicione uma classe com o método main.
@@ -47,7 +54,7 @@ No Eclipse crie um projeto Java, depois um pacote com o nome de sua preferência
 Com botão direito e o cursor em cima do projeto criado, vá para **Build Path --> Configure Build Path --> Libraries** e dentro do **ClassPath** adicione os aquivos JARs externo que vieram no arquivo *Selenium* que você baixou:
 
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img2.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img2.png" alt="diretório criado">
 
 
  >**NOTE**:
@@ -153,7 +160,7 @@ Em **Export destination** indique o caminho que você quer salvar o arquivo + no
 
 Configure conforme imagem abaixo:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img3.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img3.png" alt="diretório criado">
 
 Depois de **finish** o arquivo **.jar** estará na pasta.
 
@@ -166,13 +173,13 @@ No agendador de tarefas vá em **Ação -> Criar Tarefa**
 
 Configure conforme imagens:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img4.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img4.png" alt="diretório criado">
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img5.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img5.png" alt="diretório criado">
 
 Em ações clique em **Novo**:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img6.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img6.png" alt="diretório criado">
 
 Em Programa/script você deverá buscar o arquivo **java.exe** dentro da pasta da **JRE** ou da **JDK**.
 
@@ -187,7 +194,7 @@ Clique em OK e pronto sua tarefa estará criada e seu código rodará todos os d
 
 Como ficou a pasta após dois dias de uso:
 
-<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img7.png" alt="diretório criado">
+<img src="https://github.com/apm-cmyk/automacao-ons/blob/main/img/img7.png" alt="diretório criado">
 
 Lembrando que ele foi programado para ser executado quando a máquina estava ligada. 
 
