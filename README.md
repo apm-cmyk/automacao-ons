@@ -17,7 +17,7 @@ Para proceguir você dverá conhecer o básico do básico de Java e ter instalad
 
 Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDEs desde que use os frameworks apropriados para a linguagem desejada.
 
-## Passo 1 - Baixe Os arquivos Web Drive
+## Passo 1 - Baixe Os arquivos Web Driver
 
 Você deverá baixar o arquvido Web Driver do navegador de sua preferência.
 Abaixo estão disponíveis os links para baixar de alguns navegadores:
@@ -32,8 +32,9 @@ Nesse tutorial conforme titulo vamos utilizar o navegador Edge.
 
 ## Passo 2 - Crie Um Projeto Java No Eclipse e Prepare O Ambiente
 
-Após baixar o arquivo Web Drive do Edge, descompactue a pasta e coloque todo o conteúdo em uma diretório.
+Após baixar o arquivo Web Driver do Edge, descompactue a pasta e coloque todo o conteúdo em uma diretório.
 No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conforme imagem:
+
 
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img1.png" alt="diretório criado">
@@ -43,11 +44,25 @@ No Eclipse crie um projeto Java, depois um pacote com o nome de sua preferência
 
 
 
-Com botão direito e o cursor em cima do projeto criado, vá para Build Path --> Configure Build Path e dentro do ClassPath adicione os aquivos JARs externo que vieram no arquivo Web Drive do Edge que você baixou:
+Com botão direito e o cursor em cima do projeto criado, vá para **Build Path --> Configure Build Path --> Libraries** e dentro do **ClassPath** adicione os aquivos JARs externo que vieram no arquivo *Selenium* que você baixou:
+
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img2.png" alt="diretório criado">
 
 
+ >**NOTE**:
+ >
+ >Para não ter problemas na geração do arquivo final **.jar**, exclua os arquivos: **CHANGELOG, LICENSE e NOTICE** quando for selecionar os arquivos JARs.
+
+<img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img8.png" alt="">
+
+
+O executável do Web Driver do Edge é configurado no sistema dentro da própria classe main a ser executável código abaixo:
+
+```
+// Especifique o local do driver do Edge (arquivo .exe baixado no web driver)
+System.setProperty("webdriver.edge.driver","C:\\Program Files\\Selenium\\web-drivers\\edgedriver_win64\\msedgedriver.exe");
+```
 
 ## Passo 3 - Classes e Métodos Básicos
 
@@ -132,21 +147,22 @@ public class AutomacaoONS {
 
 ## Passo 4 - Criar Arquivo Final .jar
 
-Para criar o arquivo .jar final com o botão direito no projeto vá para Export -> Runnable JAR File ->Next e em Launch configuration localize a sua classe Main().
+Para criar o arquivo final .jar com o botão direito no projeto vá para **Export -> Runnable JAR File -> Next** e em **Launch configuration** localize a sua classe **Main**.
 
-Em Export destination indique o caminho ue você quer salvar o arquivo + nome_do_arquivo.jar.
+Em **Export destination** indique o caminho que você quer salvar o arquivo + nome_do_arquivo.jar.
 
 Configure conforme imagem abaixo:
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img3.png" alt="diretório criado">
 
-Depois de finish o arquivo jar estará na pasta.
+Depois de **finish** o arquivo **.jar** estará na pasta.
+
  
 ## Passo 5 - Agendador de Tarefas do Windows
 
 Agora vamos usar o Agendador de Tarefas do Windows parar fazer com que esse arquivo .jar compile uma vez ao dia às 13:00.
 
-No agendador de tarefas vá em Ação -> Criar Tarefa
+No agendador de tarefas vá em **Ação -> Criar Tarefa**
 
 Configure conforme imagens:
 
@@ -154,7 +170,7 @@ Configure conforme imagens:
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img5.png" alt="diretório criado">
 
-Em ações clique em Novo:
+Em ações clique em **Novo**:
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img6.png" alt="diretório criado">
 
@@ -173,13 +189,14 @@ Como ficou a pasta após dois dias de uso:
 
 <img src="C:/Users/anapa/OneDrive/programação/RPA/automacao-ons/img/img7.png" alt="diretório criado">
 
-Lembrando que ele foi executado quando a máquina estava ligada. 
+Lembrando que ele foi programado para ser executado quando a máquina estava ligada. 
 
 
 ## Passo 6 - Integração Com Dashboard Power BI
 
 
 ## Concluíndo...
+
 Pronto! E não foi gasto nem dois neurônios aprendendo isso. 
 
 Perceba que isso é um caso bem simples porém completo e que você pode aplicar a idéia em situações mais complexas de acordo com a sua necessidade.
