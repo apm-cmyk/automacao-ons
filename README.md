@@ -1,4 +1,4 @@
-# RPA Web No Nagevador Edge Com Java e Selenium
+# RPA Web No Navegador Edge Com Java e Selenium
 
 <p>Caro trabalhador deste país, você como eu sabe que a maioria das atividades executadas na labuta são tarefas monótonas, repetitivas e que carecem da necessidade de inteligência humana.</p>
 
@@ -6,7 +6,7 @@
 <img src="https://github.com/apm-cmyk/automacao-ons/blob/main/Charlie_Chaplin_Tempos_Modernos_1936.gif"
 </p>
 
-Sendo assim uma forma de se livrar dessas tarefas para poder concentrar o seu tempo e esforços em atividades que realmente precisam de você, é automatizando esses processos. Automatizar nesse contexto significa ter um software programado para executar uma ou mais tarefas (abrir, baixar e fechar aquivos, pequisar na internet, acessar sites, tomar decições apartir de um critério e etc), com uma frequência de tempo e sem precisar de você.
+Sendo assim uma forma de se livrar dessas tarefas para poder concentrar o seu tempo e esforços em atividades que realmente precisam de você, é automatizando esses processos. Automatizar nesse contexto significa ter um software programado para executar uma ou mais tarefas (abrir, baixar e fechar arquivos, pesquisar na internet, acessar sites, tomar decisões a partir de um critério e etc), com uma frequência de tempo e sem precisar de você.
 
 Além de automatizar tarefas em aplicativos disponíveis em seu computador, você também pode automatizar o acesso ao seu navegador. Isso é útil por exemplo, em tarefas em que é necessário buscar um dado disponível na Internet.
 
@@ -38,7 +38,7 @@ Nesse tutorial conforme titulo vamos utilizar o navegador Edge.
 
 ## Passo 2 - Crie Um Projeto Java No Eclipse e Prepare O Ambiente
 
-Após baixar o arquivo WebDriver do Edge, descompactue a pasta e coloque todo o conteúdo em uma diretório.
+Após baixar o arquivo WebDriver do Edge, descompacte a pasta e coloque todo o conteúdo em uma diretório.
 No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conforme imagem:
 
 
