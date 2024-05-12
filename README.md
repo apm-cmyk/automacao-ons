@@ -8,7 +8,7 @@
 
 Sendo assim uma forma de se livrar dessas tarefas para poder concentrar o seu tempo e esforços em atividades que realmente precisam de você, é automatizando esses processos. Automatizar nesse contexto significa ter um software programado para executar uma ou mais tarefas (abrir, baixar e fechar aquivos, pequisar na internet, acessar sites, tomar decições apartir de um critério e etc), com uma frequência de tempo e sem precisar de você.
 
-Além de automatizar tarefas em aplicativos disponíveis em seu computador, você também pode automatizar o acesso ao seu navegador. Como exemplo, em tarefas em que é necessário buscar um dado disponível na Internet.
+Além de automatizar tarefas em aplicativos disponíveis em seu computador, você também pode automatizar o acesso ao seu navegador. Isso é útil por exemplo, em tarefas em que é necessário buscar um dado disponível na Internet.
 
 Preparei uma forma de fazer isso usando framework Selenium e a plataforma Java.
 
@@ -22,23 +22,23 @@ Para prosseguir você dverá conhecer o básico do básico de Java e ter instala
 Lembrando que isso pode ser feito com qualquer linguagem e em qualquer IDE desde que use os frameworks apropriados para a linguagem desejada.
 
 
-## Passo 1 - Baixe Os arquivos Web Driver e Selenium
+## Passo 1 - Baixe Os arquivos WebDriver e Selenium
 
 
-Você deverá baixar o arquvido Web Driver do navegador de sua preferência.
+Você deverá baixar o arquvido **WebDriver** do navegador de sua preferência.
 Abaixo estão disponíveis os links para baixar de alguns navegadores:
 
 |Navegador|Site|
 |---|---|
-|Edge|[baixar]()|
-|Chrome|[baixar]()|
-|Mozila|[baixar]()|
+|Edge|[baixar](https://developer.microsoft.com/pt-br/microsoft-edge/tools/webdriver?form=MA13LH#downloads)|
+|Chrome|[baixar](https://chromedriver.chromium.org/downloads)|
+|Mozila|[baixar](https://github.com/mozilla/geckodriver/releases)|
 
 Nesse tutorial conforme titulo vamos utilizar o navegador Edge.
 
 ## Passo 2 - Crie Um Projeto Java No Eclipse e Prepare O Ambiente
 
-Após baixar o arquivo Web Driver do Edge, descompactue a pasta e coloque todo o conteúdo em uma diretório.
+Após baixar o arquivo WebDriver do Edge, descompactue a pasta e coloque todo o conteúdo em uma diretório.
 No meu caso eu criei um diretório Selenium/web-drives/edgedriver-win64, conforme imagem:
 
 
